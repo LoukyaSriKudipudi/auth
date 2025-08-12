@@ -143,11 +143,11 @@ exports.login = async (req, res, next) => {
     token,
   });
 };
-const { promisify } = require("util"); // Converts callback-based functions to promise-based
-const User = require("../models/userModel"); // User model for DB operations
-const jwt = require("jsonwebtoken"); // For creating and verifying JWT tokens
-const sendEmail = require("../utils/email"); // Utility for sending emails
-const crypto = require("crypto"); // For generating secure random tokens
+// const { promisify } = require("util"); // Converts callback-based functions to promise-based
+// const User = require("../models/userModel"); // User model for DB operations
+// const jwt = require("jsonwebtoken"); // For creating and verifying JWT tokens
+// const sendEmail = require("../utils/email"); // Utility for sending emails
+// const crypto = require("crypto"); // For generating secure random tokens
 
 // Helper function to sign a JWT token with the user's ID
 // const signToken = (id) => {
